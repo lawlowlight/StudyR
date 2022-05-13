@@ -8,14 +8,21 @@ ds
 ds
 barplot(ds, main = '좋아하는 계절')
 
-barplot(ds, main = '좋아하는 계절', col = c('wheat','blue','red','green'))
+barplot(ds, main = '좋아하는 계절', 
+        col = c('aliceblue', 'plum', 'steelblue1', 'pink'))
 
 barplot(ds, main = '좋아하는 계절', col = rainbow(4))
 
 barplot(ds, main = '좋아하는 계절', col = rainbow(4),
-        xlab = '계절', ylab =  '빈도수', horiz =  F,
+        xlab = '계절', ylab = '빈도수')
+
+barplot(ds, main = '좋아하는 계절', col = rainbow(4),
+        xlab = '계절', ylab = '빈도수', horiz = T)
+
+
+barplot(ds, main = '좋아하는 계절', col = rainbow(4),
+        xlab = '계절', ylab = '빈도수', horiz = F,
         names = c('가을','봄','여름','겨울'), las=1)
-barplot
 
 
 colors()
