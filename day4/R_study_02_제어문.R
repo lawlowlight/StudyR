@@ -117,3 +117,4 @@ result$mul
 
 ## 내장함수 apply()
 apply(iris[,1:4], 2, median)
+
